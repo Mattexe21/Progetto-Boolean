@@ -1,0 +1,61 @@
+body{
+    background-image: url(Img/background.jpg);
+    background-size: cover;
+    color: white;
+    margin-top: 25px;
+}
+
+.bg{
+    width: 800px;
+    margin: auto;
+    padding: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+header, nav{
+    text-align: center;
+    color: #00DD00;
+}
+
+nav{
+    background-color: #00DD00;
+    padding: 10px;
+}
+
+h3{
+    display: inline-block;
+    margin: 0;
+}
+
+.position:before, .charge{
+    content: ' \21A6 ';
+    
+}
+
+.position, .charge, h3{
+    margin: 0;
+    padding-top: 5px;
+}
+
+.statusbar, .second, .third{
+    background-color: #F5B453;
+    width: 290px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.second{
+    background-color: #1EC31E;
+    width: 550px;
+}
+
+.third{
+    background-color: #BE4141;
+    width: 110px;
+}
+
+#monopa{
+    padding-top: 5px;
+}
